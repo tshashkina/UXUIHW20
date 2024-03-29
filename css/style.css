@@ -1,0 +1,550 @@
+/*HEADER----------------------------------->*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    color: white;
+    margin-right: 35px;
+}
+.logo {
+    padding: 1%;
+    text-align: center;
+    position: fixed;
+}
+.logo img {
+    width: 150px;
+    transform: rotate(360deg);
+    animation: spinme 100s infinite;
+}
+    @keyframes spinme {
+        0% {
+          transform: rotate(0);
+        }
+        100% {
+          transform: rotate(720deg);
+        }
+      }
+
+      nav {
+        width: 60%;
+        padding: 2%;
+    }
+    nav ul {
+        width: 100%;
+        margin-left: 405px;
+        position: fixed;
+    }
+
+/*<------Hero Space---------------------->*/
+
+.content {
+    margin-left: 5%;
+}
+.heroImg {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+.heroImg-inner {
+    font-family: 'Raleway', sans-serif; 
+    letter-spacing: .2rem;
+    position: relative;
+    text-align: center;
+    /*text-align: 50px;*/ 
+    color: white;
+    padding: 20px;
+    width: 100%;
+    padding-top: 20%;
+    padding-bottom: 30%;
+}
+
+li {
+    font-family: 'Raleway', sans-serif; 
+    letter-spacing: .2rem;
+}
+
+/*<!-- Design Process Steps [page 2] -->*/
+
+body {
+    background-color: #202020;
+    padding: 0px;
+ }
+
+ .header-title {
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif; 
+    letter-spacing: .2rem;
+    margin-top: 140px;
+ }
+
+ .position {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2rem;
+
+}
+
+.icon {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0.5rem;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+}
+
+.text {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-family: 'Raleway', sans-serif; 
+    letter-spacing: .2rem;
+
+}
+
+.text-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 200px;
+    padding-top: 100px;
+}
+
+/*<---- About The Projet [page 3]---->*/
+
+.about-section {
+    padding: 40px 0;
+    background-color: #333333;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.about-section h2, .about-section p, .disciplines-list, .team-list, .my-role {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif; 
+    letter-spacing: .1rem;
+}
+.disciplines-list h3, .team-list h3, .my-role h3 {
+    font-weight: bold;
+}
+.disciplines-list ul, .team-list ul {
+    list-style-type: none;
+    padding: 10px;
+}
+.disciplines-list ul li, .team-list ul li {
+    margin-bottom: 10px;
+}
+
+/*<--------------STEP1: User Research [page 4]---------->*/
+
+.research-section {
+    padding: 40px;
+    background-color: #202020;
+}
+.research-section h2, .research-section h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Raleway', sans-serif; 
+    letter-spacing: .1rem;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif; 
+    letter-spacing: .1rem;
+}
+
+.research-details {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 20px;
+}
+.research-details .method {
+    flex-basis: 30%;
+}
+.research-details .method h4 {
+    margin-bottom: 15px;
+}
+.research-details .method p {
+    margin-bottom: 10px;
+}
+.research-details img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+/*<--------------STEP1: User Research - Survey Insights [page 5]---------->*/
+
+.survey-section {
+    padding: 40px;
+    background-color: #333333;
+}
+.survey-section h2, .survey-section h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.survey-results, .key-takeaways {
+    margin-top: 20px;
+}
+.key-takeaways ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.img-fluid {
+    height: 400px;
+    width: 750px; 
+}
+
+/*<--------------STEP1: User Research - Interview Insights [page 6]---------->*/
+
+.interviewInsight {
+    padding-top: 40px;
+}
+
+.insight-image {
+    height: 400px;
+    width: 720px; 
+    padding: 40px;
+}
+
+/*<--------------STEP1: User Research - Empathy Map [page 7]---------->*/
+
+.empathy-map-image {
+    height: 500px;
+    width: 750px; 
+    padding: 40px;
+}
+
+.empathy-map {
+    background-color: #333333;
+}
+
+.emp-map-heading {
+    padding-top: 50px;
+}
+
+/*<--------------STEP1: User Research - User Persona [page 8]---------->*/
+
+.user-persona-image {
+    height: 500px;
+    width: 1020px; 
+    padding: 40px;
+}
+
+.user-persona-heading {
+    padding-top: 40px;
+}
+
+/*<--------------STEP2: Definition - Problem Statement [page 9]---------->*/
+
+.definition-section {
+    padding: 200px;
+    background-color: #333333; 
+    color: #ffffff; 
+    text-align: center;
+    /*height: 100vh;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+.definition-section h2 {
+    margin-bottom: 10px;
+}
+.definition-section h3 {
+    margin-bottom: 70px;
+}
+.definition-section p {
+    font-size: 1.25rem; 
+}
+
+/*<--------------STEP2: Definition - Comp Analyses [page 11]---------->*/
+
+.comp-analyses-image {
+    height: 500px;
+    width: 850px; 
+    padding: 40px;
+}
+
+.comp-analyses-heading {
+    padding-top: 40px;
+}
+
+/*<--------------STEP3: Ideation - Wish Like What if [page 12]---------->*/
+
+.wish-like-image {
+    height: 500px;
+    width: 850px; 
+    padding: 40px;
+}
+
+.wish-like-heading {
+    padding-top: 40px;
+}
+
+.wish-like-if {
+    background-color: #333333;
+}
+
+/*<--------------STEP3: Ideation - Feature Prioratization Matrix [page 13]---------->*/
+
+.matrix-image {
+    height: 500px;
+    width: 750px; 
+    padding: 40px;
+}
+
+.matrix-heading {
+    padding-top: 40px;
+}
+
+/*<--------------STEP3: Ideation - Solution To The Problem [page 14]---------->*/
+
+.solution-image {
+    height: 380px;
+    width: 870px; 
+    padding: 40px;
+}
+
+.solution-heading {
+    padding-top: 40px;
+}
+
+.solution {
+    background-color: #333333;
+}
+
+/*<--------------STEP3: Ideation - User Journey Map [page 15]---------->*/
+
+.journey-image {
+    height: 500px;
+    width: 890px; 
+    padding: 40px;
+}
+
+.journey-heading {
+    padding-top: 40px;
+}
+
+/*<--------------STEP3: Ideation - User Storyboard [page 16]---------->*/
+
+.storyboard-image {
+    height: 650px;
+    width: 1000px; 
+    padding: 40px;
+}
+
+.storyboard-heading {
+    padding-top: 40px;
+}
+
+.storyboard {
+    background-color: #333333;
+}
+
+/*<--------------STEP3: Ideation - Card Sorting [page 17]---------->*/
+
+.card-sorting-image {
+    height: 600px;
+    width: 890px; 
+    padding: 40px;
+}
+
+.card-sorting-heading {
+    padding-top: 40px;
+}
+
+/*<--------------STEP3: Ideation - Site Map [page 18]---------->*/
+
+.site-map-image {
+    height: 1500px;
+    width: 1500px; 
+    padding: 40px;
+}
+
+.site-map-heading {
+    padding-top: 40px;
+}
+
+.site-map {
+    background-color: #333333;
+}
+
+/*<--------------STEP4: Prototyping - User Flow [page 19]---------->*/
+
+.user-flow-image {
+    height: 1500px;
+    width: 1700px; 
+    padding: 40px;
+}
+
+.user-flow-heading {
+    padding-top: 40px;
+}
+
+/*<--------------STEP4: Prototyping - Digital Wireframing [page 20]---------->*/
+
+.wireframing-image {
+    height: 1000px;
+    width: 2000px; 
+    padding: 40px;
+}
+
+.wireframing-heading {
+    padding-top: 40px;
+}
+
+.wireframing {
+    background-color: #333333;
+}
+
+/*<--------------STEP5: Testing & Itiration - Usability Testing Plan [page 21]---------->*/
+
+.user-testing {
+    padding: 40px;
+    background-color: #202020; 
+}
+.testing-section h2, .testing-section h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.user-testing p, .user-testing ul {
+    text-align: center;
+    margin-bottom: 15px;
+    list-style-type: none;
+}
+.user-testing li {
+    margin-bottom: 10px;
+}
+
+/*<--------------STEP5: Testing & Itiration - Feedback [page 22]---------->*/
+
+.feedback-image {
+    height: 500px;
+    width: 1000px; 
+    padding: 40px;
+}
+
+.feedback-heading {
+    padding-top: 40px;
+}
+
+.feedback {
+    background-color: #333333;
+}
+
+/*<--------------STEP4: Prototyping - Moodboard & Styleguide [page 23]---------->*/
+
+.prototyping-section {
+    padding: 40px;
+}
+.prototyping-section .image-container {
+    padding: 15px;
+}
+.prototyping-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/*<--------------STEP4: Prototyping - HI-FI [page 24]---------->*/
+
+.hifi-image {
+    height: 1250px;
+    width: 2000px; 
+    padding: 40px;
+}
+
+.hifi-heading {
+    padding-top: 40px;
+}
+
+.hifi {
+    background-color: #333333;
+}
+
+/*<--------------STEP5: Testing & Itiration - Next Steps [page 25]---------->*/
+
+.testing-section {
+    padding: 40px;
+    text-align: center;
+}
+.testing-section h2 {
+    /*font-size: 2.5rem; /* Adjust size as needed */
+    margin-bottom: 30px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif; 
+    letter-spacing: .2rem;
+}
+
+.testing-section h3 {
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif; 
+    letter-spacing: .2rem;
+    font-size: 1.5rem;
+}
+
+.testing-section p {
+    font-size: 1.2rem; /* Adjust size as needed */
+    margin-bottom: 10px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif; 
+    letter-spacing: .2rem;
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    background-color: #333; 
+}
+.footer-nav {
+    list-style: none;
+    padding-top: 20px;
+    margin: 0;
+    display: inline-block; 
+}
+.footer-nav li {
+    display: inline;
+    margin: 0 10px;
+}
+.footer-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+.copyright {
+    color: #666;
+    font-size: 0.8rem;
+}
