@@ -387,8 +387,8 @@ img {
 /*<--------------STEP3: Ideation - Site Map [page 18]---------->*/
 
 .site-map-image {
-    height: 1500px;
-    width: 1500px; 
+    height: 600px;
+    width: 800px;  
     padding: 40px;
 }
 
@@ -403,8 +403,8 @@ img {
 /*<--------------STEP4: Prototyping - User Flow [page 19]---------->*/
 
 .user-flow-image {
-    height: 1500px;
-    width: 1700px; 
+    height: 600px;
+    width: 800px; 
     padding: 40px;
 }
 
@@ -415,8 +415,8 @@ img {
 /*<--------------STEP4: Prototyping - Digital Wireframing [page 20]---------->*/
 
 .wireframing-image {
-    height: 1000px;
-    width: 2000px; 
+    height: 600px;
+    width: 1200px; 
     padding: 40px;
 }
 
@@ -472,8 +472,8 @@ img {
     padding: 15px;
 }
 .prototyping-section img {
-    width: 100%;
-    height: auto;
+    width: 700px;
+    height: 700px;
     display: block;
     margin: 0 auto;
 }
@@ -481,8 +481,8 @@ img {
 /*<--------------STEP4: Prototyping - HI-FI [page 24]---------->*/
 
 .hifi-image {
-    height: 1250px;
-    width: 2000px; 
+    height: 600px;
+    width: 900px; 
     padding: 40px;
 }
 
